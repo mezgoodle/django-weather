@@ -6,11 +6,13 @@ import os
 import requests
 load_dotenv()
 
+
 def index(request):
     if(request.method == 'POST'):
         form = CityForm(request.POST)
         if form.is_valid():
             form.save()
+
     form = CityForm()
     appid = os.getenv('API_KEY')
     cities = City.objects.all()[:5]
@@ -24,6 +26,7 @@ def index(request):
             'icon': res['weather'][0]['icon'],
         }
         info.append(city_info)
+
     context = {
         'info': info,
         'form': form,
