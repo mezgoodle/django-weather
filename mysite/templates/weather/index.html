@@ -13,7 +13,9 @@
         <div class="col-4 offset-1">
             <h1>Information</h1>
             <div class="alert alert-success" role="alert">
-                Weather in Vinnytsia
+                <b>City:</b> {{info.city}}<br>
+                <b>Temperature:</b> {{info.temp}}<sup>o</sup><br>
+                <img src="http://openweathermap.org/img/w/{{info.icon}}.png" alt="Icon" class="img-thumbnail">
             </div>
         </div>
     </div>
