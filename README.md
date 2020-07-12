@@ -1,5 +1,7 @@
 # django-weather
 
+[![Build Status](https://travis-ci.com/mezgoodle/django-weather.svg?branch=master)](https://travis-ci.com/mezgoodle/django-weather)
+
 Django application that works with OpenWeatherMapAPI
 
 
