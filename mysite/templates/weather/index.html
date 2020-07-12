@@ -2,11 +2,12 @@
 {% block content %}
 <div class="container mt-5">
     <div class="row">
-        <div class="col-5 offset-2">
+        <div class="col-5 offset-1">
             <h1>Weather in your city</h1>
             <form method="post">
+                {% csrf_token %}
                 <label for="city">City</label>
-                <input type="text" class="form-control" id="city" name="city" placeholder="Enter city name">
+                {{form.name}}
                 <input type="submit" value="Search" class="mt-2 btn btn-danger" name="send">
             </form>
         </div>
