@@ -8,10 +8,16 @@ load_dotenv()
 
 
 def index(request):
+    msg = {}
     if(request.method == 'POST'):
         form = CityForm(request.POST)
         if form.is_valid():
             form.save()
+            msg['text'] = 'Your city has been added'
+            msg['class'] = 'alert alert-success'
+        else:
+            msg['text'] = 'Error has been encountered'
+            msg['class'] = 'alert alert-danger'
 
     form = CityForm()
     appid = os.getenv('API_KEY')
@@ -32,6 +38,7 @@ def index(request):
     context = {
         'info': info,
         'form': form,
+        'msg': msg,
     }
     template_name = 'weather/index.html'
     return render(request, template_name, context)

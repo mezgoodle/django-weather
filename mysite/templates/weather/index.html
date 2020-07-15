@@ -10,6 +10,11 @@
                 {{form.name}}
                 <input type="submit" value="Search" class="mt-2 btn btn-danger" name="send">
             </form>
+            <div class="mt-2">
+                {% if msg %}
+                    <div class="{{msg.class}}" role="alert">{{msg.text}}</div>
+                {% endif %}
+            </div>
         </div>
         <div class="col-4 offset-1">
             <h1>Information</h1>
