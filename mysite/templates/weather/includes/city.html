@@ -3,5 +3,6 @@
     <b>Wind speed:</b> {{city.wind_speed}} meter/sec<br>
     <b>Clouds:</b> {{city.clouds}}%<br>
     <b>Temperature:</b> {{city.temp}}<sup>o</sup><br>
-    <img src="http://openweathermap.org/img/w/{{city.icon}}.png" alt="Icon" class="img-thumbnail">
+    <img src="http://openweathermap.org/img/w/{{city.icon}}.png" alt="Icon" class="img-thumbnail"><br>
+    <a href="{% url 'index' city.id %}" class="alert-link">Delete</a> this city.
 </div>
