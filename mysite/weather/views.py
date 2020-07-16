@@ -25,7 +25,8 @@ def index(request, id=None):
 
     form = CityForm()
     appid = os.getenv('API_KEY')
-    cities = City.objects.all()[:5]
+    CITY_LIMIT = 7
+    cities = City.objects.all()[:CITY_LIMIT]
     info = []
     for city in cities:
         url = f'https://api.openweathermap.org/data/2.5/weather?q={city.name}&units=metric&appid={appid}'
