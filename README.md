@@ -12,7 +12,7 @@ A little info about your project and/ or overview that explains **what** the pro
 
 ## Table of contents
 
-- [Project title](#project-title)
+- [Table of contents](#table-of-contents)
 - [Motivation](#motivation)
 - [Build status](#build-status)
 - [Badges](#badges)
@@ -23,7 +23,6 @@ A little info about your project and/ or overview that explains **what** the pro
 - [Code Example](#code-example)
 - [Installation](#installation)
 - [Fast usage](#fast-usage)
-- [API Reference](#api-reference)
 - [Tests](#tests)
 - [Contribute](#contribute)
 - [Credits](#credits)
@@ -31,7 +30,9 @@ A little info about your project and/ or overview that explains **what** the pro
 
 ## Motivation
 
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
+In summer I want to improve my skills with **Django**, so I made this project from the tutorial.
+
+> For tutorial link look Credits section
 
 ## Build status
 
