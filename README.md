@@ -4,12 +4,6 @@
 
 Django application that works with [OpenWeatherMapAPI](https://openweathermap.org/api).
 
-[![Language](https://img.shields.io/badge/language-python-brightgreen?style=flat-square)](https://www.python.org/)
-
-A little info about your project and/ or overview that explains **what** the project is about.
-
-> Hello everyone! This is the repository of my package on Python "sync-folders".
-
 ## Table of contents
 
 - [Table of contents](#table-of-contents)
