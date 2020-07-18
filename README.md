@@ -48,7 +48,7 @@ Here you can see build status of [continuous integration](https://en.wikipedia.o
 
 I'm using [Codacy](https://www.codacy.com/) for automate my code quality.
 
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/dccf7974d1354fe79aa320042a48b55b)](https://www.codacy.com/manual/mezgoodle/django-weather?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=mezgoodle/django-weather&amp;utm_campaign=Badge_Grade)
  
 ## Screenshots
 
